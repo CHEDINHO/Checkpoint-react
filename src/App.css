@@ -1,38 +1,47 @@
-.App {
+.card {
+  max-width: 500px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: #007bff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-center {
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Center the card and give it some margin */
+.product-card {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Center text and add some margin */
+.text-center {
+  margin-bottom: 20px;
+}
+
+/* Style the product name */
+h3 {
+  color: #007bff;
+}
+
+/* Style the price and description */
+p {
+  color: #333;
+}
+
+/* Style the greeting image */
+.text-center img {
+  border-radius: 50%;
+}
+.po{width: 250px;
+  height: 250px;
 }
